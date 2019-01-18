@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/media/psf/Home/Documents/code/ROS_Practice/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/media/psf/Home/Documents/code/ROS_Practice/catkin_ws/install -G Unix Makefiles
