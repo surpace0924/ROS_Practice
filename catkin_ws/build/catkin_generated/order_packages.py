@@ -1,5 +1,5 @@
 # generated from catkin/cmake/template/order_packages.context.py.in
-source_root_dir = "/media/psf/Home/Documents/code/ROS_Practice/catkin_ws/src"
+source_root_dir = "/home/parallels/catkin_ws/src"
 whitelisted_packages = "".split(';') if "" != "" else []
 blacklisted_packages = "".split(';') if "" != "" else []
-underlay_workspaces = "/home/parallels/catkin_ws/devel;/opt/ros/kinetic".split(';') if "/home/parallels/catkin_ws/devel;/opt/ros/kinetic" != "" else []
+underlay_workspaces = "/home/parallels/catkin_ws/devel;/media/psf/Home/Documents/Code/ROS_Practice/catkin_ws/devel;/opt/ros/kinetic".split(';') if "/home/parallels/catkin_ws/devel;/media/psf/Home/Documents/Code/ROS_Practice/catkin_ws/devel;/opt/ros/kinetic" != "" else []
