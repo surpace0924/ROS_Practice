@@ -51,6 +51,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "turtlebot3_simulations/turtlebot3_gazebo/catkin_generated/ordered_paths.cmake"
   "turtlebot3_simulations/turtlebot3_gazebo/catkin_generated/package.cmake"
   "turtlebot3_simulations/turtlebot3_simulations/catkin_generated/package.cmake"
+  "ydlidar/catkin_generated/ordered_paths.cmake"
+  "ydlidar/catkin_generated/package.cmake"
   "/home/parallels/catkin_ws/devel/share/my_service/cmake/my_service-msg-paths.cmake"
   "/home/parallels/catkin_ws/devel/share/turtlebot3_example/cmake/turtlebot3_example-msg-paths.cmake"
   "/home/parallels/catkin_ws/devel/share/turtlebot3_msgs/cmake/turtlebot3_msgs-msg-extras.cmake"
@@ -101,6 +103,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/parallels/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/package.xml"
   "/home/parallels/catkin_ws/src/turtlebot3_simulations/turtlebot3_simulations/CMakeLists.txt"
   "/home/parallels/catkin_ws/src/turtlebot3_simulations/turtlebot3_simulations/package.xml"
+  "/home/parallels/catkin_ws/src/ydlidar/CMakeLists.txt"
+  "/home/parallels/catkin_ws/src/ydlidar/package.xml"
   "/opt/ros/kinetic/share/actionlib/cmake/actionlib-msg-extras.cmake"
   "/opt/ros/kinetic/share/actionlib/cmake/actionlibConfig-version.cmake"
   "/opt/ros/kinetic/share/actionlib/cmake/actionlibConfig.cmake"
@@ -367,6 +371,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "turtlebot3/turtlebot3_slam/CMakeFiles/CMakeDirectoryInformation.cmake"
   "turtlebot3/turtlebot3_teleop/CMakeFiles/CMakeDirectoryInformation.cmake"
   "turtlebot3/turtlebot3_description/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "ydlidar/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -517,4 +522,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/DependInfo.cmake"
   "turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/DependInfo.cmake"
   "turtlebot3/turtlebot3_description/CMakeFiles/turtlebot3_description_xacro_generated_to_devel_space_.dir/DependInfo.cmake"
+  "ydlidar/CMakeFiles/ydlidar_node.dir/DependInfo.cmake"
+  "ydlidar/CMakeFiles/ydlidar_client.dir/DependInfo.cmake"
   )

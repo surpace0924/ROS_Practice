@@ -132,6 +132,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/parallels/catkin_ws/build/turtlebot3/turtlebot3_slam/cmake_install.cmake")
   include("/home/parallels/catkin_ws/build/turtlebot3/turtlebot3_teleop/cmake_install.cmake")
   include("/home/parallels/catkin_ws/build/turtlebot3/turtlebot3_description/cmake_install.cmake")
+  include("/home/parallels/catkin_ws/build/ydlidar/cmake_install.cmake")
 
 endif()
 
