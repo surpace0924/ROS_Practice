@@ -686,6 +686,32 @@ rosgraph_msgs_generate_messages_py/fast:
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named my_subscriber_node
+
+# Build rule for target.
+my_subscriber_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 my_subscriber_node
+.PHONY : my_subscriber_node
+
+# fast build rule for target.
+my_subscriber_node/fast:
+	$(MAKE) -f my_subscriber/CMakeFiles/my_subscriber_node.dir/build.make my_subscriber/CMakeFiles/my_subscriber_node.dir/build
+.PHONY : my_subscriber_node/fast
+
+#=============================================================================
+# Target rules for targets named my_teleop_node
+
+# Build rule for target.
+my_teleop_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 my_teleop_node
+.PHONY : my_teleop_node
+
+# fast build rule for target.
+my_teleop_node/fast:
+	$(MAKE) -f my_teleop/CMakeFiles/my_teleop_node.dir/build.make my_teleop/CMakeFiles/my_teleop_node.dir/build
+.PHONY : my_teleop_node/fast
+
+#=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_nodejs
 
 # Build rule for target.
@@ -1908,6 +1934,8 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... my_subscriber_node"
+	@echo "... my_teleop_node"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_eus"

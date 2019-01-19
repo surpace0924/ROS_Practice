@@ -8,4 +8,4 @@
 
 # modified environment variables
 export PWD="/home/parallels/catkin_ws/build"
-export PYTHONPATH="/home/parallels/catkin_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH"
+export PYTHONPATH="/home/parallels/catkin_ws/devel/lib/python2.7/dist-packages:/media/psf/Home/Documents/Code/ROS_Practice/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages"
