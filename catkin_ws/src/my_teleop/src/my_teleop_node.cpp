@@ -52,6 +52,10 @@ int main(int argc, char **argv)
         case 'r':
             vel.angular.z = -1.0;
             break;
+        case 's':
+            vel.linear.x = 0.0;
+            vel.angular.z = 0.0;
+            break;
             // linear.xは前後方向の並進速度(m/s)。前方向が正。
             // angular.zは回転速度(rad/s)。反時計回りが正。
         }
