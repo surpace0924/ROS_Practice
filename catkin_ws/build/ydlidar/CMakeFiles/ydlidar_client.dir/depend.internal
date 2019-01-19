@@ -3,6 +3,11 @@
 
 ydlidar/CMakeFiles/ydlidar_client.dir/src/ydlidar_client.cpp.o
  /home/parallels/catkin_ws/src/ydlidar/src/ydlidar_client.cpp
+ /opt/ros/kinetic/include/geometry_msgs/Point.h
+ /opt/ros/kinetic/include/geometry_msgs/Pose.h
+ /opt/ros/kinetic/include/geometry_msgs/Quaternion.h
+ /opt/ros/kinetic/include/geometry_msgs/Twist.h
+ /opt/ros/kinetic/include/geometry_msgs/Vector3.h
  /opt/ros/kinetic/include/ros/advertise_options.h
  /opt/ros/kinetic/include/ros/advertise_service_options.h
  /opt/ros/kinetic/include/ros/assert.h
